@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/color2"
+tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/gambar"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    app:srcCompat="@drawable/ic_baseline_music_note_24"
+    tools:ignore="ContentDescription"
+    />
+
+<Button
+    android:id="@+id/btnStart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="70dp"
+    android:text="Play Music"
+    tools:ignore="HardcodedText" />
+
+
+<Button
+    android:id="@+id/btnStop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignTop="@+id/btnStart"
+    android:layout_marginBottom="16dp"
+    android:layout_marginEnd="70dp"
+    android:layout_marginRight="16dp"
+    android:text="Stop Music"
+    tools:ignore="HardcodedText" />
+
+</RelativeLayout>
